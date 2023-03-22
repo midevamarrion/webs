@@ -1,10 +1,8 @@
-@media (min-width: 600px) and (max-width: 768px) {
+@media (min-width: 280px) and (max-width: 1028px) {
     body {
     
     }
   }
-
-
 nav{
     display: flex;
     align-items: center;
@@ -51,6 +49,8 @@ li{
     height: 300px;
     width: 600px;
     margin-left: 10%;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .3);
 }
 #but1{
     background-color: yellow;
@@ -102,4 +102,483 @@ h4{
 h5{
     text-align: center;
     font-size: larger;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.nav ul li{
+     display: inline;
+    margin-left: 10%;
+}
+#flag{
+    width: 50px;
+    height: 50px;
+}
+.brickhouse{
+    background-color: yellow;
+    display: flex;
+}
+#brick{
+    width: 50px;
+    height: 60px;
+}
+#catalog{
+    margin-top: 2%;
+    padding-left: 3%;
+    margin-left: 10%;
+}
+#search{
+    margin-top: 2%;
+    margin-left: 3%;
+    padding-right: 5%;
+}
+.icon{
+    margin-left: 45%;
+    margin-top: 3%;
+}
+/* #stars{
+    width: 1845px;
+    height: 70px;
+} */
+#pwars{
+    color: aliceblue;
+    text-align: left;
+    /* margin-top: -5%; */
+    font-size: 30px
+}
+#see{
+    /* text-align: center; */
+    color: aliceblue;
+    font-size: 250%;
+    /* margin-top: -5%; */
+}
+.mom{
+    background-color: black;
+    display: flex;
+}
+.lol{
+    border: solid;
+    display: inline-block;
+    margin-left: 3%;
+}
+#img1{
+    margin-left: 3%;
+    margin-top: 0%;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .3);
+
+}
+.column1hold{
+    display: flex;
+    margin-left: 25%;
+    margin-top: -35%;
+  }
+  #disk1{
+    width: 150px;
+    height: 200px;
+    margin: 60px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .3);
+  }
+  #disk2{
+    width: 150px;
+    height: 200px;
+    margin: 60px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .3);
+  }
+  #disk3{
+    height: 200px;
+    width: 150px;
+    padding: 5px;
+  margin: 60px;
+  border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .3);
+  }
+  #disk4{
+    height: 200px;
+    width: 150px;
+    margin: 60px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .3);
+  }
+  #disk5{
+    height: 200px;
+    width: 150px;
+    margin: 60px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .3);
+  }
+  #disk6{
+    height: 200px;
+    width: 150px;
+    margin: 60px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .3);
+  }
+  .column2hold{
+    display: flex;
+    margin-left: 30%;
+  }
+  .column3hold{
+    display: flex;
+    margin-left: 30%;
+  }
+  #disk7,#disk8,#disk9{
+    width: 150px;
+    height: 200px;
+    margin: 60px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .3);
+  }
+.column4hold{
+  display: flex;
+  margin-left: 30%;
+}
+#disk10{
+  width: 150px;
+  height: 300px;
+  margin: 60px;
+  border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .3);
+}
+#disk11,#disk12{
+  width: 150px;
+  height: 200px;
+  margin: 60px;
+  border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .3);
+}
+.column5hold{
+  display: flex;
+  margin-left: 30%;
+}
+#disk13,#disk14,#disk15{
+  width: 150px;
+  height: 200px; 
+  margin: 60px;
+  border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .3);
+}
+.number{
+  margin-left: 40%;
+}
+#but1{
+    background-color: yellow;
+    color: black;
+    margin-left: 50%;
+
+}
+.footer{
+  background-color: purple;
+  display: flex;
+  justify-content: space-between;
+}
+.cones2{
+  font-size: 30px;
+}
+#one{
+  text-align: center;
+}
+#but111{
+  border-radius: 30px;
+  background-color: purple;
+  color: black;
+  margin-left: 10%;
+}
+#img23{
+  margin-left: 10%;
+}
+/* #but34{
+  border-radius: 40px;
+  background-color: yellow;
+  color: black;
+}
+#wow{
+  font-size: larger;
+} */
+.avail{
+  margin-left: 800px;
+}
+#add{
+  color: green;
+}
+.tag{
+  background-color: yellow;
+  padding: 10px 12px;
+}
+.number{
+  background-color: whitesmoke;
+  width: 40px;
+}
+.down{
+  margin-top: 80px;
+}
+.build{
+  margin-left: 800px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+#map{
+  background-color: yellow;
+  padding: 3px 7px;
+  color: white;
+}
+#pick{
+  background-color: purple;
+  padding: 3px 6px;
+  color: white;
+}
+#nov{
+  background-color: red;
+  padding: 3px 6px;
+  color: white;
+}
+.future{
+  margin-left: 1100px;
+  margin-top: -120px;
+}
+.adres{
+  color: palevioletred;
+}
+.frere{
+  color: green;
+}
+.vary{
+  color: green;
+}
+.describe{
+  display: flex;
+  margin-top: 240px;
+  margin-left: 450px;
+}
+.explain{
+  font-weight: bold;
+  font-size: 20px;
+  background-color: yellow;
+  padding: 8px 40px;
+  border-radius: 8px;
+}
+.view{
+  font-weight: bold;
+  font-size: 20px;
+  background-color: whitesmoke;
+  padding: 8px 40px;
+  border-radius: 8px;
+  margin-left: 50px;
+}
+.video{
+  font-weight: bold;
+  font-size: 20px;
+  background-color: whitesmoke;
+  padding: 8px 40px;
+  border-radius: 8px;
+  margin-left: 50px;
+}
+.line{
+  background-color: grey;
+  height: 1px;
+}
+.stmt{
+  margin-left: 250px;
+  padding: 40px;
+  font-size: large;
+}
+.vans{
+  margin-left: 600px;
+  font-size: 40px;
+}
+.c img{
+  width: 300px;
+  margin-left: 330px;
+  background-color: yellow;
+  border: yellow solid;
+  border-radius: 15px;
+}
+.s img{
+  width: 250px;
+  margin-left: 680px;
+  margin-top: -200px;
+  border: yellow solid;
+  border-radius: 15px;
+}
+.s1 img{
+  width: 230px;
+  margin-left: 450px;
+  border: yellow solid;
+  border-radius: 15px;
+}
+.avail{
+  margin-left: 800px;
+}
+#add{
+  color: green;
+}
+.tag{
+  background-color: yellow;
+  padding: 10px 12px;
+}
+.number{
+  background-color: whitesmoke;
+  width: 40px;
+}
+.down{
+  margin-top: 80px;
+}
+.build{
+  margin-left: 800px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+#map{
+  background-color: yellow;
+  padding: 3px 7px;
+  color: white;
+}
+#pick{
+  background-color: purple;
+  padding: 3px 6px;
+  color: white;
+}
+#nov{
+  background-color: red;
+  padding: 3px 6px;
+  color: white;
+}
+.future{
+  margin-left: 1100px;
+  margin-top: -120px;
+}
+.adres{
+  color: palevioletred;
+}
+.frere{
+  color: green;
+}
+.vary{
+  color: green;
+}
+.describe{
+  display: flex;
+  margin-top: 240px;
+  margin-left: 450px;
+}
+.explain{
+  font-weight: bold;
+  font-size: 20px;
+  background-color: yellow;
+  padding: 8px 40px;
+  border-radius: 8px;
+}
+.view{
+  font-weight: bold;
+  font-size: 20px;
+  background-color: whitesmoke;
+  padding: 8px 40px;
+  border-radius: 8px;
+  margin-left: 50px;
+}
+.video{
+  font-weight: bold;
+  font-size: 20px;
+  background-color: whitesmoke;
+  padding: 8px 40px;
+  border-radius: 8px;
+  margin-left: 50px;
+}
+.line{
+  background-color: grey;
+  height: 1px;
+}
+.stmt{
+  margin-left: 250px;
+  padding: 40px;
+  font-size: large;
+}
+.vans{
+  margin-left: 600px;
+  font-size: 40px;
+}
+.c{
+  
+}
+.s{
+  padding-bottom: 20px;
+}
+.s1{
+  
+}  
+.art{
+  margin-left: 800px;
+}
+.stars{
+  margin-left: 800px;
+  color: yellow;
+}
+#dol{
+  margin-top: -300px;
+}
+#mom{
+  font-size: 30px;
+}
+#lkj{
+  font-size: 30px;
+}
+#kjl{
+  font-size: 30px;
+}
+#sas{
+  display: flex;
+  /* margin-left: 30%; */
+}
+#dod2{
+  width: 150px;
+  height: 200px; 
+  margin: 60px;
+  border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .3);
+
+}
+#dod3{
+  width: 150px;
+  height: 200px; 
+  margin: 60px;
+  border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .3);
+}
+#dod4{
+  width: 150px;
+  height: 200px; 
+  margin: 60px;
+  border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .3);
+}
+#dod1{
+  width: 150px;
+  height: 200px; 
+  margin: 60px;
+  border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .3);
+}
+.footer{
+  background-color: purple;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-size: medium;
+}
+.cones2{
+  font-size: medium;
+}
+#but0{
+  background-color: yellow;
+  color: black;
+}
+#but33{
+  border-radius: 50px;
+  padding: 30px;
+  background-color: yellow;
+  color: black;
 }
