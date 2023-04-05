@@ -1,8 +1,4 @@
-@media (min-width: 280px) and (max-width: 1028px) {
-    body {
-    
-    }
-  }
+
 nav{
     display: flex;
     align-items: center;
@@ -572,13 +568,13 @@ h5{
 .cones2{
   font-size: medium;
 }
-#but0{
-  background-color: yellow;
-  color: black;
+#but0{background-color: yellow;  color: black;
 }
-#but33{
-  border-radius: 50px;
-  padding: 30px;
-  background-color: yellow;
-  color: black;
+#but33{border-radius: 50px;  padding: 30px; background-color: yellow; color: black;
+}
+@media screen  and (max-width:920px){
+ .emoji{margin-left: -1200px;}
+  
+
+
 }
